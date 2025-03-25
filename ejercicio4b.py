@@ -19,13 +19,12 @@ import random
 # 2: Gana Jugador 2.
 
 def quienGana(jugada1, jugada2) :
+    
     if jugada1 == jugada2 :
         return 0
-    elif jugada1 == "piedra" and jugada2 == "tijera" :
-        return 1
-    elif jugada1 == "tijera" and jugada2 == "papel" :
-        return 1
-    elif jugada1 == "papel" and jugada2 == "piedra" :
+    elif (jugada1 == "piedra" and jugada2 == "tijera") or \
+         (jugada1 == "tijera" and jugada2 == "papel") or \
+         (jugada1 == "papel" and jugada2 == "piedra"):
         return 1
     else :
         return 2
@@ -47,9 +46,8 @@ def main():
         j1 = random.choice(["piedra", "papel", "tijera"])
         j2 = random.choice(["piedra", "papel", "tijera"])
         
-        # print(nombre1+" ha sacado "+j1+".")
-        # print(nombre2+" ha sacado "+j2+".")
-        # Implemente los comentarios anteriores empleando print("".format())
+        print("{0} ha sacado {1}.".format(nombre1, j1))
+        print("{0} ha sacado {1}.".format(nombre2, j2))
        
         
         ganador=quienGana(j1,j2)

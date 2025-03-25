@@ -2,7 +2,7 @@
 # Puesta en Producción Segura: Fundamentos de programación.
 ## Ejercicios de Programación con Python
 ### Profesor José Gaspar Sánchez García.
-Alumno:
+Alumno: Unai García Aguirre
 
 #### Elementos básicos:
 * [Ejercicio 1](ejercicio1.py). Mostrar en pantalla *Hola mundo*.
@@ -32,7 +32,7 @@ Alumno:
     - El jugador que ha sacado **Tijera** gana al jugador que ha sacado *Papel*.
     - El jugador que ha sacado **Papel** gana al jugador que ha sacado *Piedra*.
 
-* [Ejercicio 4b](ejercicio4b.py). Reescriba el *Ejercicio4* empleadno formatos en las salidas por pantalla ,**print("{0} {1} {2}... ".format(cero,uno,dos))**.
+* [Ejercicio 4b](ejercicio4b.py). Reescriba el *Ejercicio4* empleadno formatos en las salidas por pantalla ,**print("{0} {1} {2}... ".format(cero,uno,dos))**. 
 * [Ejercicio 5](ejercicio5.py). **Par e impar**. Implemente las siguientes funciones:
     - *esPar(numero): booleano*. Comprueba si *numero* es par.
     - *esImpar(numero): booleano*. Comprueba si *numero* es impar.

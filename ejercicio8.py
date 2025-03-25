@@ -19,8 +19,10 @@ def fibonacci(n) :
 
         vector.append(1)
         vector.append(1)
-        # Creamos aquí el bucle WHILE
-        # --> Implemente el código del Bucle
+        
+        while n > len(vector):
+            
+            vector.append(vector[-1]+ vector[-2])
     elif n==1 :
         vector[0]=1
 

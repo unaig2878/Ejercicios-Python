@@ -20,10 +20,9 @@ def fibonacci(n) :
         vector.append(1)
         vector.append(1)
 
-        # --> Implemente el código del Bucle <--
-        
-    elif n==1 :
-        vector[0]=1
+        for i in range(2,n):
+            vector.append(vector[-1]+ vector[-2])
+
 
     return vector; # Retorno de la función
 

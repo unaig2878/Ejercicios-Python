@@ -7,11 +7,14 @@ __Author__="José Gaspar Sánchez García"
 def esPrimo(numero) :
     contador = 0
 
-    if numero==1 :
-        return True
+    if numero ==1 or numero == 0 :
+        return False
 
-    # --> Implemente el código del Bucle <--
-    
+
+    for i in range(1,numero +1):
+        if numero % i == 0:
+            contador += 1
+                
     # Si tiene solo dos divisores el número es primo     
     if contador == 2 :
         return True
