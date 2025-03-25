@@ -24,7 +24,7 @@ def obtenerCalificaion(nota) :
         calificacion="Bien"
     elif(nota>=7 and nota <9):
         calificacion="Notable"
-    elif(nota>=9 and nota <10):
+    elif(nota>=9 and nota <= 10):
         calificacion="Sobresaliente"
     else:
         calificacion="Incorrecta"
