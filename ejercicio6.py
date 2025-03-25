@@ -7,8 +7,8 @@ __Author__="José Gaspar Sánchez García"
 def esPrimo(numero) :
     contador = 0
 
-    if numero ==1 or numero == 0 :
-        return False
+    if numero ==1 :
+        return True
 
 
     for i in range(1,numero +1):

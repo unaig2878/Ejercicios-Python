@@ -14,7 +14,7 @@ __Author__="José Gaspar Sánchez García"
 # Implemente función obtenerCalificacion
 def obtenerCalificaion(nota) :
     
-    if(nota > 0 and nota < 3):
+    if(nota >= 0 and nota < 3):
         calificacion="Muy deficiente"
     elif(nota >=3 and nota <5):
         calificacion="Insuficiente"
