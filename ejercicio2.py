@@ -1,7 +1,7 @@
 """Pide la edad y el nombre por teclado. En caso de ser mayor de 18 años indica que ya puede conducir."""
 
 def main():
-    nombre=input("Introduzca su nombre: ");
+    nombre=input("Introduzca su nombre: ")
     edad=int(input(f"Introduzca su edad {nombre}: "))
 
     if edad >= 18:
